@@ -1,0 +1,3 @@
+if response content-type == application/json:
+    parse json
+    pretty print with indentation
