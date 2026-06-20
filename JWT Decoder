@@ -1,0 +1,6 @@
+if "Authorization: Bearer" exists:
+    extract JWT
+    split by "."
+    decode header (base64url)
+    decode payload (base64url)
+    display decoded content
