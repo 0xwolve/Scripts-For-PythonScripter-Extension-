@@ -1,0 +1,5 @@
+extract parameters from request
+for each parameter value:
+    search value in response body
+    if found:
+        mark as reflected
