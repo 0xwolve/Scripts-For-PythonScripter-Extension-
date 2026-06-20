@@ -1,0 +1,4 @@
+store response length
+compare with previous responses
+if significant difference:
+    highlight request
