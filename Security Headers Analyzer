@@ -1,0 +1,9 @@
+required_headers = [
+    "Content-Security-Policy",
+    "Strict-Transport-Security",
+    "X-Frame-Options"
+]
+
+for header in required_headers:
+    if header not present:
+        flag warning
